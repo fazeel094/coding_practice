@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int WinMain(){
+int main(){
     printf("Hello I am learning C");
     return 0;
 }
