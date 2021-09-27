@@ -1,0 +1,63 @@
+/*As the number of conditions increases, the level of indentation increases. This reduces readability.
+ Logical operators come to the rescue in such cases.
+ instead of using multiple if statements, we can also use else if along with if,
+ thus forming an |if-else if-else| ladder.
+
+ if {
+
+// statements ;
+
+}
+
+else if { //statements;
+
+           }
+
+else {  //statements;
+
+        }
+
+OPRATOR PRECEDENCE --->>>
+    Priority	Operator
+    1st	        !
+    2nd	        *,/,%
+    3rd	        +,-
+    4th	        <>,<=,>=
+    5th	        ==,!=
+    6th	        &&
+    7th	        ||
+    8th	        =
+Conditional operators--->>>
+    A shorthand “if-else” can be written using conditional or ternary operators.
+    Condition ?  expression-if-true ;  expression-if-false
+    Here, '?' and ':' are Ternary operators.
+
+Switch case-control instruction--->>>
+   Switch-case is used when we have to make a choice between the number of alternatives for a given variable.
+
+Syntax:  
+    Switch(integer-expression)
+
+{
+
+Case c1:
+
+       Code;
+
+Case c2:                                                         //c1,c2,c3 are constants
+
+       Code;                                                       //Code is any valid C code
+
+Case c3:
+
+      Code;
+
+default:
+
+      Code;
+
+}
+ The value of integer-expression is matched against c1,c2,c3......if it matched any of these cases, 
+ that case along with all subsequent “case” and “default” statements are executed. 
+ In order to erminate this we use "break". 
+*/
